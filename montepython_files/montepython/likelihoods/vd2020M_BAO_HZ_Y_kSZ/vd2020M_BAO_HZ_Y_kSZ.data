@@ -1,0 +1,35 @@
+vd2020M_BAO_HZ_Y_kSZ.data_directory      = data.path['data']
+
+################ SNe data
+vd2020M_BAO_HZ_Y_kSZ.lc_sn = 'Pantheon/lcparam_full_long.txt'
+vd2020M_BAO_HZ_Y_kSZ.cov_sn = 'Pantheon/sys_full_long.dat'
+
+vd2020M_BAO_HZ_Y_kSZ.lc_sn_low = 'Pantheon-low/low-sne.txt'
+vd2020M_BAO_HZ_Y_kSZ.cov_sn_low = 'Pantheon-low/cov_low-sne.dat'
+
+################ MB prior from arXiv:1906.11814
+vd2020M_BAO_HZ_Y_kSZ.priorMB = -19.2334
+vd2020M_BAO_HZ_Y_kSZ.sigMB = 0.0404
+
+################ BAO data 
+# BOSS-DR12 consensus
+vd2020M_BAO_HZ_Y_kSZ.data_file_DR12           = 'COMBINEDDR12_BAO_consensus_dM_Hz/BAO_consensus_results_dM_Hz.txt'
+vd2020M_BAO_HZ_Y_kSZ.cov_file_DR12            = 'COMBINEDDR12_BAO_consensus_dM_Hz/BAO_consensus_covtot_dM_Hz.txt'
+vd2020M_BAO_HZ_Y_kSZ.rs_rescale_DR12          = 1.
+vd2020M_BAO_HZ_Y_kSZ.rd_fid_in_Mpc_DR12       = 147.78
+# BAO small z
+vd2020M_BAO_HZ_Y_kSZ.data_file_lowz = 'bao_smallz_2014.txt'
+
+################ Hz data
+vd2020M_BAO_HZ_Y_kSZ.data_directory_hz = os.path.join(data.path['data'], 'cosmic_clocks')
+vd2020M_BAO_HZ_Y_kSZ.data_file_hz = 'Hz_2016.dat'
+
+################ Y Compton Fixsen et al. 1996
+vd2020M_BAO_HZ_Y_kSZ.upY = 1.5 * 1e-5
+
+################ kSZ effect from arXiv:2002.06197
+vd2020M_BAO_HZ_Y_kSZ.priorkSZ = 3
+vd2020M_BAO_HZ_Y_kSZ.sigkSZ = 1.4
+
+################ Nuisances
+vd2020M_BAO_HZ_Y_kSZ.use_nuisance = ['MB']

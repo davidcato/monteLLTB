@@ -1,0 +1,15 @@
+vd2020H.data_directory      = data.path['data']
+
+################ SNe data
+vd2020H.lc_sn = 'Pantheon/lcparam_full_long.txt'
+vd2020H.cov_sn = 'Pantheon/sys_full_long.dat'
+
+vd2020H.lc_sn_low = 'Pantheon-low/low-sne.txt'
+vd2020H.cov_sn_low = 'Pantheon-low/cov_low-sne.dat'
+
+################ H0 local
+vd2020H.priorH0 = 73.5
+vd2020H.sigH0 = 1.4
+
+################ Nuisances
+vd2020H.use_nuisance = ['MB']

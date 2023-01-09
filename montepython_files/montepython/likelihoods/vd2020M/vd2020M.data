@@ -1,0 +1,15 @@
+vd2020M.data_directory      = data.path['data']
+
+################ SNe data
+vd2020M.lc_sn = 'Pantheon/lcparam_full_long.txt'
+vd2020M.cov_sn = 'Pantheon/sys_full_long.dat'
+
+vd2020M.lc_sn_low = 'Pantheon-low/low-sne.txt'
+vd2020M.cov_sn_low = 'Pantheon-low/cov_low-sne.dat'
+
+################ MB prior from arXiv:1906.11814
+vd2020M.priorMB = -19.2334
+vd2020M.sigMB = 0.0404
+
+################ Nuisances
+vd2020M.use_nuisance = ['MB']

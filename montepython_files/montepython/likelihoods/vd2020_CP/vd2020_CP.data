@@ -1,0 +1,6 @@
+vd2020_CP.data_directory      = data.path['data']
+
+#Importing SNe data
+
+vd2020_CP.lc_sn_low = 'Pantheon-low/low-sne.txt'
+vd2020_CP.cov_sn_low = 'Pantheon-low/cov_low-sne.dat'
