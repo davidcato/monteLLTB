@@ -26,4 +26,4 @@ cp -r class_files/* /path-to-your-class/
 Compile `class` again and have fun with inhomogeneous cosmology! 
 
 ### Usage 
-`monteLLTB` was first introduced in **[Camarena et al. 2021](https://arxiv.org/abs/2107.02296)**, please cite this paper if you make use of the code. 
+`monteLLTB` was first introduced in (**[Camarena et al. 2021](https://arxiv.org/abs/2107.02296)**), please cite this paper if you make use of the code. 
