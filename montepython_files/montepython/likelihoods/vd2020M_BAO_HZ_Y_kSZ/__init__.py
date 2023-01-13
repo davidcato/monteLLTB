@@ -491,7 +491,7 @@ class vd2020M_BAO_HZ_Y_kSZ(Likelihood):
             sig8 = newcosmo.get_current_derived_parameters(['sigma8'])['sigma8']
 
             def pk_dimless(k,z):
-                pk = k**3*newcosmo.pk(k,z)/(2*np.pi)
+                pk = k**3*newcosmo.pk(k,z)/(2*np.pi**2.)
                 return pk
 
             pk_dimless_back = np.vectorize(pk_dimless)
